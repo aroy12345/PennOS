@@ -1,10 +1,3 @@
-Contributors
----
-James Wang - jwang541 (Filesystem + Shell)\
-Michael Gao - gaom1738 (Filesystem + Shell)\
-Aryan Roy - aryanroy (Kernel + Scheduler)\
-Ethan Yu - ethanyu (Kernel + Scheduler)
-
 Source Files
 ---
 `pennos.c`: Represents the main function for an operating system-like environment. It initializes a logging system, mounts a file system, and spawns a shell process as the top-level process with the lowest priority. The shell is responsible for handling user commands and managing other processes. After setting up the shell, the scheduler is started to manage process execution and scheduling. The program expects the file system filename as a command-line argument and logs system activities to a file.
